@@ -1,0 +1,71 @@
+---
+- name: Login in to CTRP app
+  uid: 4ad1a425-789a-4fb2-92f5-b5bca5b21ad0
+  parameters:
+  - name: URL
+  - name: username
+  - name: password
+  body_hash: fb3b7307868b69869468e77a106e6036
+- name: Select page
+  uid: 25029bbd-7684-4c81-a991-baa46cddf949
+  parameters:
+  - name: page
+  body_hash: f0a875326004d5f03b3a916ebdf62f52
+- name: PO Create Organization
+  uid: 0171442d-c30f-4dfa-8cb3-622dd5983c9a
+  parameters:
+  - name: name
+  - name: alias
+  - name: address1
+  - name: address2
+  - name: country
+  - name: state
+  - name: city
+  - name: postalCode
+  - name: email
+  - name: phone
+  - name: phoneExt
+  body_hash: ed8b726c4f15f4344c8905deb3bf9fea
+- name: Click button
+  uid: ec9614ba-c563-4aaf-92af-25f2bd436a79
+  parameters:
+  - name: button
+  body_hash: 23d653e0cc2851d419e6d83a836057de
+- name: PO Search Organization
+  uid: a088df3e-4820-4b39-9fcf-aa9cb35a59c8
+  parameters:
+  - name: name
+  - name: alias
+  - name: familyName
+  - name: sourceContext
+  - name: sourceID
+  - name: sourceStatus
+  - name: city
+  - name: postalCode
+  - name: country
+  - name: phone
+  - name: email
+  - name: state
+  - name: processingStatus
+  - name: updatedBy
+  - name: serviceRequest
+  - name: lastUpdatedStartDate
+  - name: lastUpdatedEndDate
+  - name: exactSearch
+  body_hash: aeb3a5a2bc33437380bbc91e9b206eca
+- name: Reg Search Organization
+  uid: d2bd54dd-fc3f-4589-bb0c-2576ae2e895d
+  parameters:
+  - name: name
+  - name: alias
+  - name: familyName
+  - name: sourceID
+  - name: city
+  - name: postalCode
+  - name: country
+  - name: phone
+  - name: email
+  - name: state
+  - name: updatedBy
+  - name: exactSearch
+  body_hash: c05ef0079f0f596508a98eaf5266061e

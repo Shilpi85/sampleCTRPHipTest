@@ -1,0 +1,17 @@
+<testsuites>
+    <testsuite name="create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)" tests="5" failures="1" errors="0" skipped="1" timestamp="Mon, 05 Dec 2016 20:21:30 GMT" time="2.968707487">
+        <testcase name="Before undefined" classname="create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)" time="0.028838216">
+        </testcase>
+        <testcase name="Given Login in to CTRP app &quot;http://ctrp-qa.ncifcrf.gov/&quot; &quot;ctrpcurator&quot; &quot;Welcome01&quot;" classname="create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)" time="2.908482198">
+        </testcase>
+        <testcase name="And Select page &quot;Add Organization&quot;" classname="create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)" time="0.031270861">
+            <failure message="AssertionError: Verifying the logged in user: expected &apos;ctrpcurator&apos; to equal &apos;ctrptrialsubmitter&apos;">AssertionError: Verifying the logged in user: expected &apos;ctrpcurator&apos; to equal &apos;ctrptrialsubmitter&apos;</failure>
+        </testcase>
+        <testcase name="And PO Create Organization &quot;Henry Ford Health System&quot; &quot;Henry Ford&quot; &quot;2799 W. Grand Blvd.&quot; &quot;Building 5&quot; &quot;United States&quot; &quot;Michigan&quot; &quot;Detroit&quot; &quot;48202&quot; &quot;henryford@hfs.com&quot; &quot;(313) 916-1666&quot; &quot;01&quot;" classname="create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)" time="0">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="After undefined" classname="create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)" time="0.000116212">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,85 @@
+[
+  {
+    "elements": [
+      {
+        "id": "create-organization;po--create-organization-(uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "PO- Create Organization (uid:665d13c4-0cfe-458b-8d58-b9dfefbe9044)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Before ",
+            "result": {
+              "status": "passed",
+              "duration": 28838216
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/justtest/step_definitions.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Login in to CTRP app \"http://ctrp-qa.ncifcrf.gov/\" \"ctrpcurator\" \"Welcome01\"",
+            "result": {
+              "status": "passed",
+              "duration": 2908482198
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/singhs10/justtest/step_definitions.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Select page \"Add Organization\"",
+            "result": {
+              "status": "failed",
+              "duration": 31270861,
+              "error_message": "AssertionError: Verifying the logged in user: expected 'ctrpcurator' to equal 'ctrptrialsubmitter'"
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/singhs10/justtest/step_definitions.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "PO Create Organization \"Henry Ford Health System\" \"Henry Ford\" \"2799 W. Grand Blvd.\" \"Building 5\" \"United States\" \"Michigan\" \"Detroit\" \"48202\" \"henryford@hfs.com\" \"(313) 916-1666\" \"01\"",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/singhs10/justtest/step_definitions.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 116212
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/singhs10/justtest/step_definitions.js:6"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-organization",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Create Organization",
+    "tags": [],
+    "uri": "/Users/singhs10/justtest/Create_Organization.feature"
+  }
+]
